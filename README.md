@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/striderarun/simple-state-machine.svg?branch=master)](https://travis-ci.org/striderarun/simple-state-machine)
+
 # simple-state-machine
 A simple state machine in Java
 
