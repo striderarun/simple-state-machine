@@ -8,7 +8,7 @@ import java.util.concurrent.Executor;
  * Simple state machine which holds a single state.  Callers can register for
  * state change events, and can wait for the state to change.
  */
-public class StateMachine<T> {
+public class DeferredResult<T> {
 
 	private String name;
     private Executor executor;
@@ -19,7 +19,7 @@ public class StateMachine<T> {
 		void stateChanged(T state);
 	}
 
-	public StateMachine(String name, Executor executor, T initialState) {
+	public DeferredResult(String name, Executor executor, T initialState) {
 		this.name = name;
 		this.executor = executor;
 		this.state = initialState;
