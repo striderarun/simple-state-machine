@@ -1,6 +1,6 @@
 package com.arun;
 
-public enum QueryState {
+public enum TaskState {
 	
     QUEUED(false),
     PLANNING(false),
@@ -12,7 +12,7 @@ public enum QueryState {
 
     private final boolean doneState;
 
-    QueryState(boolean doneState) {
+    TaskState(boolean doneState) {
         this.doneState = doneState;
     }
     
